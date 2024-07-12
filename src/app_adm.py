@@ -1,8 +1,8 @@
 '''
-Aplicação do administrador dos clientes no sistema bancário.
-CRUD no DB - Sqlite
+Aplicação do administrador.
+    Carregar o DB.
+    RUD no DB - Sqlite
 '''
-
 
 import bcrypt
 from src.util.console_util import (
@@ -22,13 +22,6 @@ from src.util.console_util import verde
 ##################################################
      # OPÇOES DO MENU ADMIN#
 ##################################################
-
-menu_entrada_admin:  dict[str, str ] = {
-        'C': 'Carregar a Base de Dados',
-        'AD': 'Área administrativa',
-        'S': 'Sair',
-}
-
 menu_admin:  dict[str, str ] = {
         'CB': 'Carregar a Base de Dados',
         'CL': 'Cliente',
